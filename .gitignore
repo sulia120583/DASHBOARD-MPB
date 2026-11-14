@@ -1,0 +1,22 @@
+# Rahsia & kata laluan - JANGAN muat naik
+.env
+.env.*
+*.key
+*.pem
+secrets/
+credentials*.json
+
+# Fail sementara Office
+~$*
+*.tmp
+
+# Sistem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pembangunan web
+node_modules/
+dist/
+build/
+.vscode/
